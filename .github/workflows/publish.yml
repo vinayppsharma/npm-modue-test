@@ -20,8 +20,9 @@ jobs:
           with: 
             node-version: 14
             registry-url: 'https://registry.npmjs.org/'
+        - name: configure
+          run: npm config set registry https://registry.npmjs.org/npm-modue-test  
         - name: publish
-          run: npm config set registry https://registry.npmjs.org/npm-modue-test
           run: npm publish --access public
           env:
             token: ${{ secrets.NPM_AUTH_TOKEN }} 
