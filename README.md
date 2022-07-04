@@ -1,0 +1,2 @@
+# npm-modue-test
+test
