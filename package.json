@@ -10,3 +10,7 @@
   "author": "",
   "license": "ISC"
 }
+"repository": {
+        "type": "git",
+        "url": "https://github.com/vinayppsharma/react-native-swipe-list-view"
+    }    
